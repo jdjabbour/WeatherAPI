@@ -12,7 +12,7 @@ def lookup(zip):
     This API request calls the weather by the zip code.
     http://api.openweathermap.org/data/2.5/weather?q=14522,us&&APPID=9b2c7c7f226d3ca9f0b2e55b07f0df22&units=imperial
     '''
-    api_key = '&&APPID=9b2c7c7f226d3ca9f0b2e55b07f0df22'
+    api_key = '&&APPID='
     url = 'http://api.openweathermap.org/data/2.5/weather?zip='
     units = '&units=imperial'
     country = 'us'
